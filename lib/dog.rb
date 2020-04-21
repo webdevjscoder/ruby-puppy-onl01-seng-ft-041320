@@ -1,7 +1,7 @@
 # Add your code here
 
 class Dog
-  attr_accessor :name
+  attr_accessor :name, :save
   
   @@all = []
   
@@ -23,6 +23,5 @@ class Dog
   def self.clear_all
     @@all.clear
   end
-  
   
 end
